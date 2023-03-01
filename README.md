@@ -3,10 +3,10 @@ Based on: https://github.com/nehilo/Klipper-KingRoon-Printers
 Acceleration configured for best quality.
 
 1. If you use Armbian change serial to: /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
-2. Before use calibrate Z offset in KP5L/bltouch.cfg
-3. If You haven`t BlTouch 
-3.1 Comment Include in printer.cfg
-3.2 Configurate [stepper_z] in KP5L/stepper.cfg 
+2. If You haven`t BlTouch 
+2.1 Comment Include in printer.cfg
+2.2 Configurate [stepper_z] in KP5L/stepper.cfg 
+3. Calibrate Z offset in KP5L/bltouch.cfg
 4. Enjoy
 
 # Possible problems
